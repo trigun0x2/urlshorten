@@ -1,0 +1,4 @@
+<h1>Link Analytics Page</h1>
+<h5>Full URL:</h5> <%= link_to "#{@link.url}", "http://#{@link.url}" %>
+<h5>Short URL:</h5> http://localhost:3000/<%= @link.shorturl %>
+<h5>Number of Vists:</h5> <%= @link.visits %>
